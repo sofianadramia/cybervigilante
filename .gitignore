@@ -1,8 +1,23 @@
-frontend/node_modules
-# public/bundle.js
-package-lock.json
-.env
 
+# ds store
 .DS_Store
-
 client/.DS_Store
+
+
+# virtual environment
+.env/
+env/
+/.env
+
+# Django
+*.log
+*.pot
+*.pyc
+*__pycache__
+# *media
+*.DS_Store
+
+
+# react
+frontend/node_modules
+package-lock.json
